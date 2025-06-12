@@ -24,9 +24,9 @@ const nav = () => {
 
         <div className="space-x-4">
             <div className='ssm:hidden lg:block sm:block md:block space-x-2'>
-              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">Home</a>
-              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">About</a>
-              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">Contact</a>
+              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">Skills</a>
+              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">Projects</a>
+              <a href="" className="text-white hover:bg-blue-600 rounded-full px-5 py-2 text-xl">Testimonials</a>
             </div>
             <div className='ssm:block lg:hidden sm:hidden md:hidden'>
               {toggle?(
@@ -41,9 +41,9 @@ const nav = () => {
       {toggle?(
         <div className='flex justify-center text-center space-y-2'>
         <ul>
-          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>Home</li>
-          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>About</li>
-          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>Contact</li>
+          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>Skills</li>
+          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>Projects</li>
+          <li className='text-white hover:bg-blue-600 text-xl mb-2 cursor-pointer px-3 py-2 rounded-lg'>Testimonials</li>
         </ul>
       </div>
       ):(
